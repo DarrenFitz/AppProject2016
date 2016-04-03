@@ -8,6 +8,40 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0"
+                Background="Black"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                BorderBrush="Gray"
+                BorderThickness="0,0">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/calculator-icon.png" Width="20" Height="20" />
+                <TextBlock Text="Donut" Foreground="White" />
+            </StackPanel>
+        </Button>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Frame Name="MyFrame"></Frame>
+            <Image Source="Assets/background.jpg" Grid.Column="1" Stretch="UniformToFill" />
+        </Grid>
 
     </Grid>
 </Page>
