@@ -151,23 +151,6 @@ namespace AppProject2016
 
         private void BtnEqual_Click(object sender, RoutedEventArgs e)
         {
-            TextBox.Text = "";
-            ValuText.Text = "";
-        }
-
-        private void BtnPer_Click(object sender, RoutedEventArgs e)
-        {
-            if (TextBox.Text.Length > 0)
-            {
-                num1 = double.Parse(TextBox.Text);
-                opration = "%";
-                TextBox.Text = "";
-                ValuText.Text = num1 + "%";
-            }
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
             if (TextBox.Text.Length > 0)
             {
                 num2 = double.Parse(TextBox.Text);
@@ -205,6 +188,24 @@ namespace AppProject2016
                         break;
                 }
             }
+        }
+
+        private void BtnPer_Click(object sender, RoutedEventArgs e)
+        {
+            if (TextBox.Text.Length > 0)
+            {
+                num1 = double.Parse(TextBox.Text);
+                opration = "%";
+                TextBox.Text = "";
+                ValuText.Text = num1 + "%";
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TextBox.Text = "";
+            ValuText.Text = "";
+            
         }
     }
 }
