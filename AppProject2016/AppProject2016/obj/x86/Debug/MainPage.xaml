@@ -36,28 +36,28 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Button Name="PageOne" Click="PageOne_Click"  Grid.Column="0" Style="{StaticResource NavigationButtonStyle}">
+            <Button x:ConnectionId='2' Name="PageOne"                        Grid.Column="0" Style="{StaticResource NavigationButtonStyle}">
             <StackPanel Orientation="Horizontal">
                 <Image Source="Assets/calculator-icon.png" Style="{StaticResource IconImageStyle}"/>
                 <TextBlock Text="PageOne" Foreground="White" />
             </StackPanel>   
             </Button>
 
-            <Button Name="PageTwo" Click="PageTwo_Click"  Grid.Column="1" Style="{StaticResource NavigationButtonStyle}">
+            <Button x:ConnectionId='3' Name="PageTwo"                        Grid.Column="1" Style="{StaticResource NavigationButtonStyle}">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="Assets/compass.png" Style="{StaticResource IconImageStyle}" />
                     <TextBlock Text="Map" Foreground="White" />
                 </StackPanel>
             </Button>
 
-            <Button Name="PageThree" Click="PageThree_Click" Grid.Column="2" Style="{StaticResource NavigationButtonStyle}">
+            <Button x:ConnectionId='4' Name="PageThree"                         Grid.Column="2" Style="{StaticResource NavigationButtonStyle}">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="Assets/camera.png" Style="{StaticResource IconImageStyle}" />
                     <TextBlock Text="Camera" Foreground="White" />
                 </StackPanel>
             </Button>
 
-            <Button Name="PageFour" Click="PageFour_Click"  Grid.Column="3" Style="{StaticResource NavigationButtonStyle}">
+            <Button x:ConnectionId='5' Name="PageFour"                         Grid.Column="3" Style="{StaticResource NavigationButtonStyle}">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="Assets/calculator-icon.png" Style="{StaticResource IconImageStyle}" />
                     <TextBlock Text="Calculator" Foreground="White" />
@@ -71,9 +71,10 @@
                 <ColumnDefinition Width="2*" />
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
-            <Frame Name="MyFrame"></Frame>
+            <Frame x:ConnectionId='1' Name="MyFrame"></Frame>
             <Image Source="Assets/background.jpg" Grid.Column="1" Stretch="UniformToFill" />
         </Grid>
 
     </Grid>
 </Page>
+

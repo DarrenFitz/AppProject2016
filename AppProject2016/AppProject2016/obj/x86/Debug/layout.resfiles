@@ -3,7 +3,9 @@ ApplicationInsights.config
 Assets\background.jpg
 Assets\calculator-icon.png
 Assets\camera.png
+Assets\compass.png
 Assets\LockScreenLogo.scale-200.png
+Assets\map.png
 Assets\photo.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
