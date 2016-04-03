@@ -8,6 +8,26 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="0,20,0,0" Width="360" x:Name="TextBox" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" x:Name="ValuText" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="0,52,0,0" Width="360"/>
+        <Button Content="Plus" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,100,0,0" Height="70" Width="70" x:Name="BtnPlus"  Click="BtnPlus_Click"/>
+        <Button Content="Subs" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,100,0,0" Height="70" Width="70" x:Name="BtnMinus" Click="BtnMinus_Click"/>
+        <Button Content="Multi" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,100,0,0" Height="70" Width="70" x:Name="BtnMulti" Click="BtnMulti_Click"/>
+        <Button Content="Dive" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="270,100,0,0" Height="70" Width="70" x:Name="BtnDiv" Click="BtnDiv_Click"/>
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,180,0,0" Height="70"  Width="70" x:Name="Btn1" Click="Btn1_Click"/>
+        <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,180,0,0" Height="70" Width="70" x:Name="Btn2" Click="Btn2_Click"/>
+        <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,180,0,0" Height="70" Width="70" x:Name="Btn3" Click="Btn3_Click"/>
+        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,260,0,0" Height="70" Width="70" x:Name="Btn4" Click="Btn4_Click"/>
+        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,260,0,0" Height="70" Width="70" x:Name="Btn5" Click="Btn5_Click"/>
+        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,260,0,0" Height="70" Width="70" x:Name="Btn6" Click="Btn6_Click"/>
+        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,340,0,0" Height="70" Width="70" x:Name="Btn7" Click="Btn7_Click"/>
+        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,340,0,0" Height="70" Width="70" x:Name="Btn8" Click="Btn8_Click"/>
+        <Button Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,340,0,0" Height="70" Width="70" x:Name="Btn9" Click="Btn9_Click"/>
+        <Button Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,420,0,0" Height="70" Width="70" x:Name="Btn0" Click="Btn0_Click"/>
+        <Button Content="." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,420,0,0" Height="70" Width="70" x:Name="BtnDot" Click="BtnDot_Click"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="190,420,0,0" Height="70" Width="70" x:Name="BtnCan" Click="BtnCan_Click"/>
+        <Button Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="270,340,0,0" Height="140" Width="80" x:Name="BtnEqual" Click="BtnEqual_Click"/>
+        <Button Content="Per" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="270,180,0,0" Height="70" Width="70" x:Name="BtnPer" Click="BtnPer_Click"/>
+        <Button Content="Clear" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="270,260,0,0" Height="70" Width="70" Click="Button_Click"/>
     </Grid>
 </Page>
