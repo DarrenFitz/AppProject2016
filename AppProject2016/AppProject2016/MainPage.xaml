@@ -52,8 +52,8 @@
 
             <Button Name="PageThree" Click="PageThree_Click" Grid.Column="2" Style="{StaticResource NavigationButtonStyle}">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="Assets/calculator-icon.png" Style="{StaticResource IconImageStyle}" />
-                    <TextBlock Text="PageThree" Foreground="White" />
+                    <Image Source="Assets/camera.png" Style="{StaticResource IconImageStyle}" />
+                    <TextBlock Text="Camera" Foreground="White" />
                 </StackPanel>
             </Button>
 

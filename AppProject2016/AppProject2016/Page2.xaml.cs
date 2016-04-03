@@ -26,5 +26,16 @@ namespace AppProject2016
         {
             this.InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            string uri = "bingmaps:?53.2707~9.0568&lvl=18";
+            Windows.System.Launcher.LaunchUriAsync(new Uri(uri));
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Windows.Services.Maps.MapManager.ShowDownloadedMapsUI();
+        }
     }
 }
