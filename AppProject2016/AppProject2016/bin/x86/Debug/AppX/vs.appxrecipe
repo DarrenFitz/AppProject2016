@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-03T05:58:50.168</Modified>
+      <Modified>2016-04-03T13:28:00.373</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\AppProject2016.exe">
       <PackagePath>entrypoint\AppProject2016.exe</PackagePath>
-      <Modified>2016-04-03T05:58:49.557</Modified>
+      <Modified>2016-04-03T13:27:55.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -466,6 +466,14 @@
       <PackagePath>Assets\calculator-icon.png</PackagePath>
       <Modified>2016-04-03T04:34:20.483</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\photo.png">
+      <PackagePath>Assets\photo.png</PackagePath>
+      <Modified>2016-04-03T13:20:35.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\video.png">
+      <PackagePath>Assets\video.png</PackagePath>
+      <Modified>2016-04-03T13:22:35.255</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-10-10T20:09:42.000</Modified>
@@ -506,7 +514,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\AppProject2016.xr.xml">
       <PackagePath>AppProject2016.xr.xml</PackagePath>
-      <Modified>2016-04-03T05:19:10.004</Modified>
+      <Modified>2016-04-03T13:27:55.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -514,11 +522,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-04-03T05:32:32.238</Modified>
+      <Modified>2016-04-03T13:27:58.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\Core\AppProject2016.exe">
       <PackagePath>AppProject2016.exe</PackagePath>
-      <Modified>2016-04-03T05:58:50.166</Modified>
+      <Modified>2016-04-03T13:28:00.368</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

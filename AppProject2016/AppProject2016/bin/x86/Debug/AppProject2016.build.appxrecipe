@@ -348,6 +348,12 @@
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\calculator-icon.png">
       <PackagePath>Assets\calculator-icon.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\photo.png">
+      <PackagePath>Assets\photo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\video.png">
+      <PackagePath>Assets\video.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>

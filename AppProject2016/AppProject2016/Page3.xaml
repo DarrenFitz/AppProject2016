@@ -8,6 +8,30 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button HorizontalAlignment="left" 
+                VerticalAlignment="Top"
+                Background="Green"
+                Margin="20,75,0,0" 
+                Height="75" 
+                Width="150" 
+                x:Name="BtnCapture"  
+                Click="BtnCapture_Click">
+            <Image Source="Assets/photo.png" Height="50" Width="50"/>
+        </Button>
 
+        <Button HorizontalAlignment="Left" 
+                VerticalAlignment="Top"
+                Background="Red"
+                Margin="190,75,0,0" 
+                Height="75" 
+                Width="150" 
+                x:Name="BtnImages"  
+                Click="BtnImages_Click">
+            <Image Source="Assets/video.png" Height="50" Width="50"/>
+        </Button>
+
+        <Image x:Name="imageControl" Width="200" Height="200"/>
+        <MediaElement x:Name="mediaElement" HorizontalAlignment="Center" Margin="0,200,0,0" Width="320" Height="240" AreTransportControlsEnabled="True"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" FontSize="28" Margin="0,25,0,0" TextWrapping="Wrap" Text="Camera" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Page>

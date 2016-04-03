@@ -60,7 +60,7 @@
             <Button Name="PageFour" Click="PageFour_Click"  Grid.Column="3" Style="{StaticResource NavigationButtonStyle}">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="Assets/calculator-icon.png" Style="{StaticResource IconImageStyle}" />
-                    <TextBlock Text="PageFour" Foreground="White" />
+                    <TextBlock Text="Calculator" Foreground="White" />
                 </StackPanel>
             </Button>
 
