@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-03T04:59:45.533</Modified>
+      <Modified>2016-04-03T05:14:02.645</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\AppProject2016.exe">
       <PackagePath>entrypoint\AppProject2016.exe</PackagePath>
-      <Modified>2016-04-03T04:59:41.618</Modified>
+      <Modified>2016-04-03T05:13:59.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -506,7 +506,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\AppProject2016.xr.xml">
       <PackagePath>AppProject2016.xr.xml</PackagePath>
-      <Modified>2016-04-03T04:59:41.256</Modified>
+      <Modified>2016-04-03T05:12:34.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -514,11 +514,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-04-03T04:59:45.001</Modified>
+      <Modified>2016-04-03T05:14:02.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\Core\AppProject2016.exe">
       <PackagePath>AppProject2016.exe</PackagePath>
-      <Modified>2016-04-03T04:59:45.528</Modified>
+      <Modified>2016-04-03T05:14:02.640</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

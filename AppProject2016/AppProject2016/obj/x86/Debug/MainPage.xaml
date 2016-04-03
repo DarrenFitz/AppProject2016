@@ -15,6 +15,11 @@
             <Setter Property="BorderBrush" Value="Gray" />
             <Setter Property="BorderThickness" Value="0,0,2,0" />
         </Style>
+        <Style TargetType="Image" x:Key="IconImageStyle">
+            <Setter Property="Height" Value="20" />
+            <Setter Property="Width" Value="20" />
+            <Setter Property="Margin" Value="0,0,10,0" />
+        </Style>
     </Page.Resources>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -31,13 +36,34 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="0" Style="{StaticResource NavigationButtonStyle}">
+            <Button x:ConnectionId='2' Name="PageOne"                        Grid.Column="0" Style="{StaticResource NavigationButtonStyle}">
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/calculator-icon.png" Width="20" Height="20" />
+                <Image Source="Assets/calculator-icon.png" Style="{StaticResource IconImageStyle}"/>
                 <TextBlock Text="PageOne" Foreground="White" />
             </StackPanel>   
             </Button>
-            
+
+            <Button x:ConnectionId='3' Name="PageTwo"                        Grid.Column="1" Style="{StaticResource NavigationButtonStyle}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Assets/calculator-icon.png" Style="{StaticResource IconImageStyle}" />
+                    <TextBlock Text="PageTwo" Foreground="White" />
+                </StackPanel>
+            </Button>
+
+            <Button x:ConnectionId='4' Name="PageThree"                         Grid.Column="2" Style="{StaticResource NavigationButtonStyle}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Assets/calculator-icon.png" Style="{StaticResource IconImageStyle}" />
+                    <TextBlock Text="PageThree" Foreground="White" />
+                </StackPanel>
+            </Button>
+
+            <Button x:ConnectionId='5' Name="PageFour"                         Grid.Column="3" Style="{StaticResource NavigationButtonStyle}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Assets/calculator-icon.png" Style="{StaticResource IconImageStyle}" />
+                    <TextBlock Text="PageFour" Foreground="White" />
+                </StackPanel>
+            </Button>
+
         </Grid>
 
         <Grid Grid.Row="1">

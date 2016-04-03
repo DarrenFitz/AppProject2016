@@ -25,6 +25,27 @@ namespace AppProject2016
         public MainPage()
         {
             this.InitializeComponent();
+            MyFrame.Navigate(typeof(Page1));
+        }
+
+        private void PageOne_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(typeof(Page1));
+        }
+
+        private void PageTwo_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(typeof(Page2));
+        }
+
+        private void PageThree_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(typeof(Page3));
+        }
+
+        private void PageFour_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(typeof(Page4));
         }
     }
 }
