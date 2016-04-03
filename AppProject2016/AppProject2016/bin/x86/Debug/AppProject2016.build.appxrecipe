@@ -345,6 +345,9 @@
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\background.jpg">
       <PackagePath>Assets\background.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\polygon.jpg">
+      <PackagePath>Assets\polygon.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\calculator-icon.png">
       <PackagePath>Assets\calculator-icon.png</PackagePath>
     </AppxPackagedFile>
@@ -353,6 +356,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\compass.png">
       <PackagePath>Assets\compass.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\home.png">
+      <PackagePath>Assets\home.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\map.png">
       <PackagePath>Assets\map.png</PackagePath>

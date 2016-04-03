@@ -38,8 +38,8 @@
 
             <Button Name="PageOne" Click="PageOne_Click"  Grid.Column="0" Style="{StaticResource NavigationButtonStyle}">
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/calculator-icon.png" Style="{StaticResource IconImageStyle}"/>
-                <TextBlock Text="PageOne" Foreground="White" />
+                <Image Source="Assets/home.png" Style="{StaticResource IconImageStyle}"/>
+                <TextBlock Text="Home" Foreground="White" />
             </StackPanel>   
             </Button>
 

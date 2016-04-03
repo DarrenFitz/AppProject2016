@@ -126,8 +126,10 @@
     <Content Include="Assets\calculator-icon.png" />
     <Content Include="Assets\camera.png" />
     <Content Include="Assets\compass.png" />
+    <Content Include="Assets\home.png" />
     <Content Include="Assets\map.png" />
     <Content Include="Assets\photo.png" />
+    <Content Include="Assets\polygon.jpg" />
     <Content Include="Assets\video.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

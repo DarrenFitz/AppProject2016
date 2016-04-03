@@ -8,6 +8,16 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
+        <Grid Grid.Row="0">
+            <Image Source="Assets/polygon.jpg" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,78,10,0" Height="270" Width="350" Stretch="Uniform" />
+        </Grid>
+        <Grid Grid.Row="1">
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" FontSize="48" Foreground="LightBlue" TextWrapping="Wrap" Text="My App" VerticalAlignment="Top" Height="75" Width="208"/>
+        </Grid>
     </Grid>
 </Page>

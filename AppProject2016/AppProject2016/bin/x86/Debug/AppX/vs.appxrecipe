@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-04-03T17:54:10.110</Modified>
+      <Modified>2016-04-03T20:37:44.120</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\AppProject2016.exe">
       <PackagePath>entrypoint\AppProject2016.exe</PackagePath>
-      <Modified>2016-04-03T17:54:08.070</Modified>
+      <Modified>2016-04-03T20:37:42.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -462,6 +462,10 @@
       <PackagePath>Assets\background.jpg</PackagePath>
       <Modified>2016-04-03T04:38:00.478</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\polygon.jpg">
+      <PackagePath>Assets\polygon.jpg</PackagePath>
+      <Modified>2016-04-03T20:27:52.765</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\calculator-icon.png">
       <PackagePath>Assets\calculator-icon.png</PackagePath>
       <Modified>2016-04-03T04:34:20.483</Modified>
@@ -473,6 +477,10 @@
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\compass.png">
       <PackagePath>Assets\compass.png</PackagePath>
       <Modified>2016-04-03T17:13:53.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\home.png">
+      <PackagePath>Assets\home.png</PackagePath>
+      <Modified>2016-04-03T19:16:13.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\Assets\map.png">
       <PackagePath>Assets\map.png</PackagePath>
@@ -526,7 +534,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\AppProject2016.xr.xml">
       <PackagePath>AppProject2016.xr.xml</PackagePath>
-      <Modified>2016-04-03T17:54:07.689</Modified>
+      <Modified>2016-04-03T20:35:18.428</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -534,11 +542,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-04-03T17:54:09.739</Modified>
+      <Modified>2016-04-03T20:37:43.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Darren\Desktop\GitHub\AppProject2016\AppProject2016\bin\x86\Debug\Core\AppProject2016.exe">
       <PackagePath>AppProject2016.exe</PackagePath>
-      <Modified>2016-04-03T17:54:10.107</Modified>
+      <Modified>2016-04-03T20:37:44.115</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
